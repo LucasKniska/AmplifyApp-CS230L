@@ -2,7 +2,11 @@ import React from 'react';
 
 function Card(props){
     
-    switch (props.num){
+  let num = props.num;
+  if ( typeof num == "string")
+    num = parseInt(num);
+
+    switch ( num ){
          case 1:     
          
          return (
