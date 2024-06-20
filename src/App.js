@@ -14,9 +14,9 @@ function App() {
       <p>Hi I am Lucas</p>
 
 
-      <Card1 num="1"/>
-      <Card1 num="2"/>
-      <Card1 num="3"/>
+      <Card num="1"/>
+      <Card num="2"/>
+      <Card num="3"/>
 
     </div>
   );
