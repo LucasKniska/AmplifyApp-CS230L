@@ -17,9 +17,7 @@ function App() {
       <p>Hi I am Lucas</p>
 
 
-      {/* <Card/>
       <Card/>
-      <Card/> */}
 
     </div>
   );
