@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar';
-import Card from './Card1';
+import Card from './Card';
 
 
 function App() {
   return (
     <div className="App">
+      
+      
       <Navbar/>
       <h1>CS 230L</h1>
       <h2>Section - 702</h2>
@@ -14,9 +16,9 @@ function App() {
       <p>Hi I am Lucas</p>
 
 
-      <Card num="1"/>
-      <Card num="2"/>
-      <Card num="3"/>
+      <Card num={1}/>
+      <Card num={2}/>
+      <Card num={3}/>
 
     </div>
   );
