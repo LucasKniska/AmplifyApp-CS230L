@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Navbar';
+import navigationBar from './NavigationBar';
 import Card from './Card';
 
 
@@ -9,7 +9,8 @@ function App() {
     <div className="App">
       
       
-      <Navbar/>
+      <navigationBar/>
+      
       <h1>CS 230L</h1>
       <h2>Section - 702</h2>
       <p>WVU ID: 800403404</p>
